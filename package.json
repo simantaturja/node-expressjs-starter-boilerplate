@@ -1,0 +1,28 @@
+{
+  "name": "expressjs-boilerplate",
+  "version": "1.0.0",
+  "description": "ExpressJS Boilerplate with Linting and VSCode Configuration Setup",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "lint": "npm install -D prettier && npm install -D babel-eslint && npm install --dev eslint-config-airbnb && npm install -D eslint-config-prettier eslint-plugin-prettier",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Simanta Deb Turja",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.7"
+  }
+}
